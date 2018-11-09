@@ -44,7 +44,7 @@ def uniqueVals(oldLst): #initally dbList and changes as elimination occurs
 #-------------------------------------------------------------------
 def apriori(s):
     supp = float(s)
-    db = MySQLdb.connect(host='localhost', user='cs288', passwd='CS288.pass', db='cs634')
+    db = MySQLdb.connect(host='localhost', user='', passwd='', db='')
     #print(db)
 
     cursor = db.cursor()
