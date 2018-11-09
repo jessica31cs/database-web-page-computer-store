@@ -1,0 +1,12 @@
+<?php  
+	session_start();
+	session_destroy();
+	if(isset($_SESSION))
+        {
+          session_destroy();
+          header('location:Admin1.php');
+        }
+        else{
+        	print_r($_POST);
+        }
+?>

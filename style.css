@@ -1,0 +1,53 @@
+html {
+	background-color: #f0f8ff;
+}
+body {
+	background-color: white;
+	border: 3px solid black;
+	width: 600px;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom: 0;
+}
+table {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+select {
+	width: 173px;
+}
+#nav_menu ul {
+	padding: 0;
+	margin: 0;
+}
+#nav_menu ul {
+	list-style: none;
+}
+#nav_menu ul li {		/*to display nav bar horizontally*/
+	float: left;
+}
+#nav_menu ul li a{
+	display: block;
+	width: 200px;
+	background-color: #3399FF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#nav_menu ul ul {
+	display: none;
+	width: 100px;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+	position: absolute;
+}
+h3 a {
+	float: right;
+}
